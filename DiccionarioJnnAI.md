@@ -71,4 +71,5 @@ Puertas lógicas:
 
 **Diagrama de flujo:** gráficos representativos que se utilizan para esquematizar conceptos vinculados a la programación, la economía, los procesos técnicos y/o tecnológicos, la psicología, la educación y casi cualquier temática de análisis. Los diagramas de flujo son múltiples y diversos y pueden abordar muchos temas distintos de formas también muy diferentes. En cualquier caso, el aspecto en común entre ellos es la presencia de un vínculo entre los conceptos enunciados y una interrelación entre las ideas. Comúnmente, se utiliza este tipo de diagramas para detallar el proceso de un algoritmo y, así, se vale de distintos símbolos para representar la trayectoria de operaciones precisas a través de flechas.
 
+**Ada Lovelace:** hija del poeta Lord Byron, fue una matemática, informática y escritora británica, célebre sobre todo por su trabajo acerca de la calculadora de uso general de Charles Babbage, la denominada máquina analítica. Entre sus notas sobre la máquina, se encuentra lo que se reconoce hoy como el primer algoritmo destinado a ser procesado por una máquina, por lo que se la considera como la primera programadora de ordenadores.
 
