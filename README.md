@@ -1,5 +1,13 @@
 # TheEgg
 
-La primera escuela de INTELIGENCIA ARTIFICIAL gratuita, presencial y sin profesores.
+_La primera escuela de INTELIGENCIA ARTIFICIAL gratuita, presencial y sin profesores._
 
-Estoy programando con Python 3.8 a traves del entorno Visual Studio Code.
+
+## Comenzando 🚀
+
+_Estoy usando el lenguaje Python 3 a través del entorno de Visual Studio Code._
+
+
+### Pre-requisitos 📋
+
+_Muchas ganas de aprender y ser los mejores programadores de IA del norte junto a mi equipo de Eggers_
