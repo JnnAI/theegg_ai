@@ -73,3 +73,14 @@ Puertas lógicas:
 
 **Ada Lovelace:** hija del poeta Lord Byron, fue una matemática, informática y escritora británica, célebre sobre todo por su trabajo acerca de la calculadora de uso general de Charles Babbage, la denominada máquina analítica. Entre sus notas sobre la máquina, se encuentra lo que se reconoce hoy como el primer algoritmo destinado a ser procesado por una máquina, por lo que se la considera como la primera programadora de ordenadores.
 
+**Algoritmo de cifrado simétrico:** La criptografía de clave simétrica, también llamada criptografía de clave secreta o criptografía de una clave​, es un método criptográfico en el cual se usa una misma clave para cifrar y descifrar mensajes en el emisor y el receptor.
+
+**Algoritmo de cifrado asimétrico:** La criptografía asimétrica, también llamada criptografía de clave pública o criptografía de dos claves​, es el método criptográfico que usa un par de claves para el envío de mensajes. Las dos claves pertenecen a la misma persona que recibirá el mensaje.
+
+**Funciones en programación:** En programación, una función es una sección de un programa que calcula un valor de manera independiente al resto del programa.
+
+Una función tiene tres componentes importantes:
+- los parámetros, que son los valores que recibe la función como entrada;
+- el código de la función, que son las operaciones que hace la función; y
+- el resultado (o valor de retorno), que es el valor final que entrega la función.
+En esencia, una función es un mini programa. Sus tres componentes son análogos a la entrada, el proceso y la salida de un programa.
