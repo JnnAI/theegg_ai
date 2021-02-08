@@ -84,3 +84,19 @@ Una función tiene tres componentes importantes:
 - el código de la función, que son las operaciones que hace la función; y
 - el resultado (o valor de retorno), que es el valor final que entrega la función.
 En esencia, una función es un mini programa. Sus tres componentes son análogos a la entrada, el proceso y la salida de un programa.
+
+**Convertidor analógico-digital:** Un conversor o convertidor de señal analógica a digital (Conversor Analógico Digital, CAD; Analog-to-Digital Converter, ADC) es un dispositivo electrónico capaz de convertir una señal analógica, ya sea de tensión o corriente, en una señal digital mediante un cuantificador y codificándose en muchos casos en un código binario en particular.
+
+**Transistores bipolares:** El transistor de unión bipolar (del inglés bipolar junction transistor, o sus siglas BJT) es un dispositivo electrónico de estado sólido consistente en dos uniones PN muy cercanas entre sí, que permite aumentar la corriente y disminuir el voltaje, además de controlar el paso de la corriente a través de sus terminales. La denominación de bipolar se debe a que la conducción tiene lugar gracias al desplazamiento de portadores de dos polaridades (huecos positivos y electrones negativos), y son de gran utilidad en gran número de aplicaciones; pero tienen ciertos inconvenientes, entre ellos su impedancia de entrada bastante baja. Un transistor se fabrica a partir de un material semiconductor en el que se forman tres zonas distintas, lo que da lugar a dos posibilidades: dos zonas P y una N o dos zonas N y una P. Esto da lugar a dos tipos de transistores distintos, los llamados PNP y NPN. Cada una de estas zonas se conecta al exterior a través de un terminal, por lo que los transistores tienen 3 “patas”, denominadas “COLECTOR” (C), “BASE” (B) y “EMISOR” (E).
+
+**Frecuencia de muestreo:** La tasa o frecuencia de muestreo es el número de muestras por unidad de tiempo que se toman de una señal continua para producir una señal discreta, durante el proceso necesario para convertirla de analógica en digital. Como todas las frecuencias, generalmente se expresa en hercios (Hz, ciclos por segundo) o múltiplos suyos, como el kilohercio (kHz), aunque pueden utilizarse otras magnitudes.
+
+**Sistema binario:** El sistema binario es un sistema de numeración que utiliza 2 símbolos 0 (cero) y 1 (uno), denominados dígitos binarios. En informática, el sistema binario es un lenguaje que utiliza 2 dígitos binarios, el 0 y el 1, donde cada símbolo constituye un bit, denominado en inglés como binary bit o bit binario. 8 bits constituyen un byte y cada byte contiene un caracter, letra o número.
+
+**Algebra Booleana:** Es una rama especial del álgebra que se usa principalmente en electrónica digital, ya que es un método para simplificar los circuitos lógicos, pudiendo incluso llegar a hacer funciones boobleanas, que representan la relación entre la entrada y la salida de un circuito lógico. La lógica booleana solo permite dos estados del circuito, como True y False. Estos dos estados están representados por 1 y 0, donde 1 representa el estado "Verdadero" y 0 representa el estado "Falso". Todo esto se divide en varias leyes:
+- Leyes Fundamentales: OR, AND y NOT.
+- Leyes Conmutativas: A+B = B+A // A·B = B·A
+- Leyes Asociativas: (A+B)+C = A+(B+C) // (A·B)·C = A·(B·C)
+- Leyes Distributibas: A·(B+C) = (A·B)+(A·C) // A+(B·C) = (A+B)·(A+C)
+- Otras leyes: mezclas entre las anteriores.
+
