@@ -3,15 +3,15 @@
 
 **Diccionario JnnAI.**
 
-**Turing:** fue un matemático, lógico, informático teórico, criptógrafo, filósofo, biólogo teórico, maratoniano y corredor de ultradistancia británico. ​​​​​Es considerado uno de los padres de la ciencia de la computación y precursor de la informática moderna. Durante la segunda guerra mundial, trabajó en descifrar los códigos nazis, particularmente los de la máquina, y durante un tiempo fue el director de la sección de Bletchley Park". Se ha estimado que su trabajo acortó la duración de esa guerra entre dos y cuatro años.​ Tras la guerra, diseñó uno de los primeros computadores electrónicos programables digitales en el "Laboratorio Nacional de Física (Reino Unido)") del Reino Unido y poco tiempo después construyó otra de las primeras máquinas en la "Universidad de Mánchester").
+**Turing:** Fue un matemático, lógico, informático teórico, criptógrafo, filósofo, biólogo teórico, maratoniano y corredor de ultradistancia británico. ​​​​​Es considerado uno de los padres de la ciencia de la computación y precursor de la informática moderna. Durante la segunda guerra mundial, trabajó en descifrar los códigos nazis, particularmente los de la máquina, y durante un tiempo fue el director de la sección de Bletchley Park". Se ha estimado que su trabajo acortó la duración de esa guerra entre dos y cuatro años.​ Tras la guerra, diseñó uno de los primeros computadores electrónicos programables digitales en el "Laboratorio Nacional de Física (Reino Unido)") del Reino Unido y poco tiempo después construyó otra de las primeras máquinas en la "Universidad de Mánchester").
 
-**Programación:** es el proceso utilizado para idear y ordenar las acciones necesarias para realizar un proyecto, preparar ciertas máquinas o aparatos para que empiecen a funcionar en el momento y en la forma deseados o elaborar programas para su empleo en computadoras
+**Programación:** Es el proceso utilizado para idear y ordenar las acciones necesarias para realizar un proyecto, preparar ciertas máquinas o aparatos para que empiecen a funcionar en el momento y en la forma deseados o elaborar programas para su empleo en computadoras
 
-**Transistor:** componente integrado en todos los circuitos electrónicos y que ha sido el gran acicate y precursor del salto cualitativo que se ha dado de un mundo analógico a uno digital. Son los culpables de generar Bit-s a diestro y siniestro. Se utilizan para amplificar señales pero también, sobretodo en los ordenadores, para SÍ dejar pasar corriente o NO dejar pasar corriente.
+**Transistor:** Componente integrado en todos los circuitos electrónicos y que ha sido el gran acicate y precursor del salto cualitativo que se ha dado de un mundo analógico a uno digital. Son los culpables de generar Bit-s a diestro y siniestro. Se utilizan para amplificar señales pero también, sobretodo en los ordenadores, para SÍ dejar pasar corriente o NO dejar pasar corriente.
 
-**Ley de Moore:** expresa que aproximadamente cada dos años se duplica el número de transistores en un microprocesador.
+**Ley de Moore:** Expresa que aproximadamente cada dos años se duplica el número de transistores en un microprocesador.
 
-Puertas lógicas:
+**Puertas lógicas:** Son circuitos electrónicos conformados internamente por transistores que se encuentran con arreglos especiales con los que otorgan señales de voltaje como resultado o una salida de forma booleana **(explicado más adelante en el apartado de algebra Booleana)**, están obtenidos por operaciones lógicas binarias (suma, multiplicación). También niegan, afirman, incluyen o excluyen según sus propiedades lógicas.
 
 **Periférico:** Unidad de una computadora que no forma parte de su unidad central.
 
@@ -80,9 +80,9 @@ Puertas lógicas:
 **Funciones en programación:** En programación, una función es una sección de un programa que calcula un valor de manera independiente al resto del programa.
 
 Una función tiene tres componentes importantes:
-- los parámetros, que son los valores que recibe la función como entrada;
-- el código de la función, que son las operaciones que hace la función; y
-- el resultado (o valor de retorno), que es el valor final que entrega la función.
+- Los parámetros, que son los valores que recibe la función como entrada;
+- El código de la función, que son las operaciones que hace la función; y
+- El resultado (o valor de retorno), que es el valor final que entrega la función.
 En esencia, una función es un mini programa. Sus tres componentes son análogos a la entrada, el proceso y la salida de un programa.
 
 **Convertidor analógico-digital:** Un conversor o convertidor de señal analógica a digital (Conversor Analógico Digital, CAD; Analog-to-Digital Converter, ADC) es un dispositivo electrónico capaz de convertir una señal analógica, ya sea de tensión o corriente, en una señal digital mediante un cuantificador y codificándose en muchos casos en un código binario en particular.
