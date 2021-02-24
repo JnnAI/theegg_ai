@@ -135,3 +135,22 @@ Entre sus principales características está, también, que tienen algunas propi
 todos estos tipos de datos tienen una estructura interna, pero no están estructurados a través de modelos o esquemas de datos fijos y predefinidos. Pueden ser textuales o no y generados por humanos o máquinas. También se pueden almacenar dentro de una base de datos no relacional o NoSQL.
 Encontrar la información valiosa contenida en ellos es una tarea complicada. Te exige análisis avanzados y un alto nivel de experiencia técnica, sin embargo, las empresas que saben aprovecharlos cuentan con una ventaja competitiva. Los estructurados te brindan una visión general de tus clientes, pero los no estructurados pueden proporcionar una comprensión mucho más profunda de su forma de comportarse y su intención de compra. De hecho, la capacidad de extraer valor de ellos es uno de los principales motores del rápido crecimiento del Big Data.
 Gracias a técnicas de data mining que implican métodos de machine learning, inteligencia artificial y estadística, las empresas pueden conocer mejor, a través de la información no estructurada, los hábitos y los ritmos de compra, los patrones de comportamiento o las afinidades con determinados productos.
+
+**Herramientas de Business Intelligence:** Business Intelligence (BI) se refiere a los métodos, estrategias y herramientas con los que se convierten los datos en conocimiento para que las organizaciones puedan tomar mejores decisiones. Los términos Business Intelligence, Inteligencia de Negocio o Inteligencia Empresarial son equivalentes.
+La información procesada para la generación de conocimiento puede ser externa o interna a una empresa. Ejemplos de información externa sería la obtenida de fuentes OSINT (como los medios de comunicación) y de interna los datos de fabricación. Las herramientas de Inteligencia Empresarial permiten obtener información, analizarla, procesarla y reportarla. ¿El objetivo? Utilizar esos datos para mejorar la eficiencia de una empresa, detectar posibles carencias y diferenciarse frente a la competencia. 
+
+**Histograma:** En estadística, un histograma es una representación gráfica de una variable en forma de barras, donde la superficie de cada barra es proporcional a la frecuencia de los valores representados.
+
+**Gráfico de barras:** Un gráfico de barras o gráfico de columnas, es una forma de representar gráficamente un conjunto de datos o valores mediante barras rectangulares de longitud proporcional a los valores representados. Se diferencia del histograma en que este último compara 2 o más valores en la misma variable horizontal, superponiendo ambas barras una al lado de la otra.
+
+**Gráfico circular:** Un gráfico circular o gráfica circular, es un recurso estadístico que se utiliza para representar porcentajes y proporciones.
+
+**Gráfico de dispersión:** Un diagrama de dispersión o gráfica de dispersión o gráfico de burbujas es un tipo de diagrama matemático que utiliza las coordenadas cartesianas para mostrar los valores de dos variables para un conjunto de datos.
+
+**Diagrama de cajas:** Un diagrama de caja es un método estandarizado para representar gráficamente una serie de datos numéricos a través de sus cuartiles. De esta manera, el diagrama de caja muestra a simple vista la mediana y los cuartiles de los datos, pudiendo también representar los valores atípicos de estos.
+
+**Cartograma:** Un cartograma es un mapa o diagrama que muestra datos de cantidad asociados a sus respectivas áreas, mediante la modificación de los tamaños de las unidades de enumeración.
+
+**Diagrama de flujo:** El diagrama de flujo o flujograma o diagrama de actividades es la representación gráfica de un algoritmo o proceso. Se utiliza en disciplinas como programación, economía, procesos industriales y psicología cognitiva.
+
+**Bucles en programación:** Un bucle o ciclo, en programación, es una secuencia de instrucciones de código que se ejecuta repetidas veces, hasta que la condición asignada a dicho bucle deja de cumplirse. Los tres bucles más utilizados en programación son el bucle while, el bucle for y el bucle do-while.
