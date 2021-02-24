@@ -1,0 +1,435 @@
+%PDF-1.3
+1 0 obj
+<< /Type /Catalog
+/Outlines 2 0 R
+/Pages 3 0 R >>
+endobj
+2 0 obj
+<< /Type /Outlines /Count 0 >>
+endobj
+3 0 obj
+<< /Type /Pages
+/Kids [6 0 R
+32 0 R
+]
+/Count 2
+/Resources <<
+/ProcSet 4 0 R
+/Font << 
+/F1 8 0 R
+/F2 9 0 R
+/F3 10 0 R
+/F4 11 0 R
+>>
+/XObject << 
+/I1 12 0 R
+/I2 13 0 R
+>>
+>>
+/MediaBox [0.000 0.000 595.280 841.890]
+ >>
+endobj
+4 0 obj
+[/PDF /Text /ImageC ]
+endobj
+5 0 obj
+<<
+/Creator (DOMPDF)
+/CreationDate (D:20210224122733+01'00')
+/ModDate (D:20210224122733+01'00')
+/Title (PDF tarea 17)
+/Subject (Empezar a hacer tareas sencillas con alg˙n lenguaje de programaciÛn)
+>>
+endobj
+6 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Annots [ 14 0 R 16 0 R 18 0 R 20 0 R 22 0 R 24 0 R 26 0 R 28 0 R 30 0 R ]
+/Contents 7 0 R
+>>
+endobj
+7 0 obj
+<<
+/Length 6201 >>
+stream
+
+0.000 0.529 0.349 rg
+2.250 716.737 590.780 122.903 re f
+1.000 1.000 1.000 rg
+BT 19.500 801.574 Td /F2 10.5 Tf  [(JonanderIturrioz)] TJ ET
+BT 19.500 779.682 Td /F1 9.0 Tf  [(Nivel: 1)] TJ ET
+BT 19.500 768.693 Td /F1 9.0 Tf  [(Tipo: individual)] TJ ET
+BT 19.500 757.704 Td /F1 9.0 Tf  [(Modo: obligatorio)] TJ ET
+BT 19.500 746.715 Td /F1 9.0 Tf  [(Dificultad: facil)] TJ ET
+q
+48.000 0 0 39.360 274.926 758.508 cm /I2 Do
+Q
+BT 430.666 790.585 Td /F2 10.5 Tf  [(Skootik Mobile Technologies)] TJ ET
+BT 501.251 768.693 Td /F1 9.0 Tf  [(https://skootik.com)] TJ ET
+BT 504.626 757.704 Td /F1 9.0 Tf  [(info@skootik.com)] TJ ET
+0.953 0.576 0.224 rg
+2.250 676.070 590.780 38.417 re f
+1.000 1.000 1.000 rg
+BT 121.778 691.421 Td /F2 10.5 Tf  [(Empezar a hacer tareas sencillas con alg˙n lenguaje de programaciÛn)] TJ ET
+0.000 0.000 0.000 rg
+BT 219.622 626.897 Td /F2 18.0 Tf  [(Tu primer programa)] TJ ET
+0.000 0.000 0.000 RG
+0.36 w 0 J [  ] 0 d
+219.622 624.039 m 390.658 624.039 l S
+BT 15.000 580.840 Td /F1 12.0 Tf  [(Para desarrollar soluciones de IA es estrictamente necesario aprender a programar. Existen m˙ltiples )] TJ ET
+BT 15.000 566.188 Td /F1 12.0 Tf  [(lenguajes de programaciÛn: orientados al desarrollo de plataformas web \()] TJ ET
+BT 406.500 566.188 Td /F3 12.0 Tf  [(javascript, php, ...)] TJ ET
+BT 500.544 566.188 Td /F1 12.0 Tf  [(\) , al )] TJ ET
+BT 15.000 551.536 Td /F1 12.0 Tf  [(desarrollo de Apps \()] TJ ET
+BT 122.376 551.536 Td /F3 12.0 Tf  [(Java, Objective-C, ...)] TJ ET
+BT 233.748 551.536 Td /F1 12.0 Tf  [(\), para trabajar con bases de datos \(SQL)] TJ ET
+BT 451.188 551.536 Td /F1 12.0 Tf  [(\), para desarrollar )] TJ ET
+BT 15.000 536.884 Td /F1 12.0 Tf  [(programas ejecutables en escritorio \()] TJ ET
+BT 212.400 536.884 Td /F3 12.0 Tf  [(Java, ...)] TJ ET
+BT 254.424 536.884 Td /F1 12.0 Tf  [(\). Existen tambiÈn lenguajes de etiquetado que no son )] TJ ET
+BT 15.000 522.232 Td /F1 12.0 Tf  [(lenguajes de programaciÛn )] TJ ET
+BT 163.068 522.232 Td /F3 12.0 Tf  [(persÈ)] TJ ET
+BT 193.080 522.232 Td /F1 12.0 Tf  [( \()] TJ ET
+BT 200.412 522.232 Td /F3 12.0 Tf  [(html, css)] TJ ET
+BT 247.752 522.232 Td /F1 12.0 Tf  [(\) pero que en determinadas ocasiones la gente los confunde.)] TJ ET
+BT 15.000 493.180 Td /F1 12.0 Tf  [(En las todas aplicaciones de programaciÛn avanzadas intervienen 2 capas que es necesario entender: )] TJ ET
+BT 15.000 478.528 Td /F2 12.0 Tf  [(el cliente y el servidor)] TJ ET
+BT 140.400 478.528 Td /F1 12.0 Tf  [(. Por ejemplo: )] TJ ET
+BT 15.000 449.476 Td /F1 12.0 Tf  [(Al ir a un restaurante a cenar el )] TJ ET
+BT 185.748 449.476 Td /F2 12.0 Tf  [(cliente eres t˙)] TJ ET
+BT 266.448 449.476 Td /F1 12.0 Tf  [( y )] TJ ET
+BT 279.120 449.476 Td /F2 12.0 Tf  [(el servidor es el camarero)] TJ ET
+BT 427.200 449.476 Td /F1 12.0 Tf  [(. Esto todo el mundo lo )] TJ ET
+BT 15.000 434.824 Td /F1 12.0 Tf  [(entiende. )] TJ ET
+BT 15.000 405.772 Td /F1 12.0 Tf  [(En inform·tica ocurre lo mismo. En las p·ginas web por ejemplo, )] TJ ET
+BT 363.792 405.772 Td /F2 12.0 Tf  [(el cliente es el navegador)] TJ ET
+BT 509.196 405.772 Td /F1 12.0 Tf  [( \()] TJ ET
+BT 516.528 405.772 Td /F3 12.0 Tf  [(firefox, )] TJ ET
+BT 15.000 391.120 Td /F3 12.0 Tf  [(chrome, edge, ...)] TJ ET
+BT 105.048 391.120 Td /F1 12.0 Tf  [(\) y )] TJ ET
+BT 121.716 391.120 Td /F2 12.0 Tf  [(el servidor es la computadora que te presta la informaciÛn)] TJ ET
+BT 455.160 391.120 Td /F1 12.0 Tf  [( solicitada. Ni m·s ni )] TJ ET
+BT 15.000 376.468 Td /F1 12.0 Tf  [(menos. En este caso utilizan el protocolo de comunicaciÛn )] TJ ET
+BT 329.808 376.468 Td /F1 12.0 Tf  [(HTTP)] TJ ET
+0.24 w 0 J [  ] 0 d
+329.808 374.933 m 361.140 374.933 l S
+BT 361.140 376.468 Td /F1 12.0 Tf  [(.)] TJ ET
+BT 15.000 347.416 Td /F1 12.0 Tf  [(En todas las comunicaciones inform·ticas estas tienen que ser bidireccionales, es decir, se necesita de )] TJ ET
+BT 15.000 332.764 Td /F1 12.0 Tf  [(un cliente y un servidor: en las comunicaciones FTP, VNC, VPN, ...)] TJ ET
+BT 15.000 303.712 Td /F1 12.0 Tf  [(Por este motivo, al desarrollar aplicaciones avanzadas se suelen necesitar diferentes lenguajes de )] TJ ET
+BT 15.000 289.060 Td /F1 12.0 Tf  [(programaciÛn que cubren diferentes necesidades. Por ejemplo, )] TJ ET
+BT 355.824 289.060 Td /F1 12.0 Tf  [(javascript)] TJ ET
+0.24 w 0 J [  ] 0 d
+355.824 287.525 m 406.500 287.525 l S
+BT 406.500 289.060 Td /F1 12.0 Tf  [( es un lenguaje del lado del )] TJ ET
+BT 15.000 274.408 Td /F1 12.0 Tf  [(cliente \(aunque hoy en dÌa tambiÈn puede trabajar en el lado del servidor con )] TJ ET
+BT 429.888 274.408 Td /F1 12.0 Tf  [(node.js)] TJ ET
+0.24 w 0 J [  ] 0 d
+429.888 272.873 m 468.576 272.873 l S
+BT 468.576 274.408 Td /F1 12.0 Tf  [(\) y )] TJ ET
+BT 485.244 274.408 Td /F1 12.0 Tf  [(php)] TJ ET
+0.24 w 0 J [  ] 0 d
+485.244 272.873 m 505.260 272.873 l S
+BT 505.260 274.408 Td /F1 12.0 Tf  [( es un )] TJ ET
+BT 15.000 259.756 Td /F1 12.0 Tf  [(lenguaje del lado del servidor.)] TJ ET
+0.953 0.576 0.224 rg
+BT 15.000 229.144 Td /F2 12.0 Tf  [(#HASHTAGS )] TJ ET
+BT 92.340 229.144 Td /F4 12.0 Tf  [( \(etiquetas de ayuda para b˙squeda de informaciÛn relevante\))] TJ ET
+0.000 0.000 0.000 rg
+BT 15.000 198.532 Td /F1 12.0 Tf  [(#programaciÛn #lenguajes-de-programaciÛn #plataforma-para-aprender-a-programar-online #editor-de-)] TJ ET
+BT 15.000 183.880 Td /F1 12.0 Tf  [(cÛdigo #sublime-text #visual-studio-code)] TJ ET
+0.953 0.576 0.224 rg
+BT 15.000 153.268 Td /F2 12.0 Tf  [(LINKS DE INTER…S)] TJ ET
+0.000 0.000 0.000 rg
+BT 15.000 122.656 Td /F1 12.0 Tf  [(https://www.youtube.com/embed/C7NLf7K7hLA)] TJ ET
+0.24 w 0 J [  ] 0 d
+15.000 121.121 m 269.112 121.121 l S
+BT 15.000 108.004 Td /F1 12.0 Tf  [(https://www.youtube.com/embed/cd549lZtPEU)] TJ ET
+0.24 w 0 J [  ] 0 d
+15.000 106.469 m 263.100 106.469 l S
+BT 15.000 93.352 Td /F1 12.0 Tf  [(https://www.youtube.com/watch?v=OPlGMplfEbc)] TJ ET
+0.24 w 0 J [  ] 0 d
+15.000 91.817 m 276.096 91.817 l S
+BT 15.000 78.700 Td /F1 12.0 Tf  [(https://www.genbeta.com/web/mejores-webs-para-aprender-a-programar-gratis)] TJ ET
+0.24 w 0 J [  ] 0 d
+15.000 77.165 m 436.452 77.165 l S
+BT 15.000 64.048 Td /F1 12.0 Tf  [(https://www.youtube.com/watch?v=5DXdL-ZESSw)] TJ ET
+0.24 w 0 J [  ] 0 d
+15.000 62.513 m 284.100 62.513 l S
+endstream
+endobj
+8 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F1
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+>>
+endobj
+9 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F2
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+>>
+endobj
+10 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F3
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+>>
+endobj
+11 0 obj
+<< /Type /Font
+/Subtype /Type1
+/Name /F4
+/BaseFont /Helvetica-BoldOblique
+/Encoding /WinAnsiEncoding
+>>
+endobj
+12 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 50
+/Height 41
+/Filter /FlateDecode
+/DecodeParms << /Predictor 15 /Colors 1 /Columns 50 /BitsPerComponent 8>>
+/ColorSpace /DeviceGray
+/BitsPerComponent 8
+/Length 874>>
+stream
+HâïUD„aÕL&ôìLíIˆGŒúIÊ+˘Jí$I¶?299Ir˙„‰Ã9…ú$'ô…‰L2g&gr˙„díô$…díd2ìôÃW&˜ºﬂkmﬂuÓÛ«˚>ÔÛ>üÔÛ<Ô˚|üó±
+4ço¡ëOÁ]&ˆ/8ÉOd¸ò:ª8ªÊäQOÛkÎ ∆l ßl}ã1âh±1c=∆òÑ¥ß*ÉÌ».Èª˙,ÍnÑÅ'oCÌ∆2Ó∫Î˘∑˘Ä‹\µvw≠ıÑñU Óx°≤∂WÑÆ=‡c•‚£ÚÏ‡ácm◊%M=!Úú—¬ÚÏ¬ç«˜˙é⁄„∏,Gèy≈4çY‘ãn´"M`[]\Í<*‘ÕË+n-≤pª¢ÈÁE2≥!e
+tE∂ﬂ˜ük8>$¯dEÜi^÷—E6è1w∑ç≠Nk4NaY]cà∆ÀÂs:ç‘O†©öb»ÄÓ'Ä>u=àÄ—›ù(2vñö¡E4o¨q”è$O≈¶.ìîÀ⁄!ùXÊT· ¢Œ$·d%É∂4≠ü˚-∆ºA÷∏{1o–°å`ì·Rg£>Ã∏a8˘/
+ª√Y≈z<∏5°Hc¡≠EöF+LéQÈ≈„ó£‚4Ósiü$”óˆû”∫&J™º
+!ÔÛÂ∞√%ÑÈw1vÈÜ6üsπcí§≠:…ÆW ÎñF‡=cstóVÄ"ù¥_bàj‚ZIèBÖ√Ö4W‹¬.*RQ.é8Ê/ﬂæ$b˚âÛìvÚtÒñ:ﬁ"OmßµÑ≈F‡ß5Øf°˜W∫ïôÔq$ä	†áæˇGñ˙µ‰]Ù≈µß;ØP#Âhï¿‘Í>Gá∆ÅCëKÔBπÎ#©ÌÓdØ®YÙr≠W=ﬁi¯ü/™≠Môvø˜8êöò5¥—„‹A¡ÃxÃ™rVuª<0…Xü"çìrÖ.uª’ÊNib0ÉÁ
+Hπ{C∆Vﬁø—Œ£APãƒÿ+–8ë«~E0N<Xk8/–Ò¯ÚB≥ÄÃk=Ÿ‚í=UJnªt≠	m^	“ßZ˝20´K)$¨Î>J‡b≤ZÈZ°„ ØË7vjè⁄ı∑*O£©]òè»¡¡§ŒVÜì«Ä˛"ßπXä}h{≈^F≥€ü,…U(ùÑE≥æ’_`2
+endstream
+endobj
+13 0 obj
+<<
+/Type /XObject
+/Subtype /Image
+/Width 50
+/Height 41
+/SMask 12 0 R
+/Filter /FlateDecode
+/DecodeParms << /Predictor 15 /Colors 3 /Columns 50 /BitsPerComponent 8>>
+/ColorSpace /DeviceRGB
+/BitsPerComponent 8
+/Length 70>>
+stream
+XÖÌŒ1Ä0 ±Rˇû,7ÒC¢ œÃú}ÓﬂÅoZÖV°UhZÖV°UhZÖV°UhZÖV°UhZÖV°U,mΩ:£O
+endstream
+endobj
+14 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 15 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 329.8080 375.3581 361.1400 387.5681 ]
+>>
+endobj
+15 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://es.wikipedia.org/wiki/Protocolo_de_transferencia_de_hipertexto#:~:text=El Protocolo de transferencia de,en la World Wide Web.)
+>>
+endobj
+16 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 17 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 355.8240 287.9501 406.5000 300.1601 ]
+>>
+endobj
+17 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.javascript.com/try)
+>>
+endobj
+18 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 19 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 429.8880 273.2981 468.5760 285.5081 ]
+>>
+endobj
+19 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://nodejs.org/es/about/)
+>>
+endobj
+20 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 21 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 485.2440 273.2981 505.2600 285.5081 ]
+>>
+endobj
+21 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.php.net/manual/es/index.php)
+>>
+endobj
+22 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 23 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 15.0000 121.5461 269.1120 133.7561 ]
+>>
+endobj
+23 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.youtube.com/embed/C7NLf7K7hLA)
+>>
+endobj
+24 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 25 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 15.0000 106.8941 263.1000 119.1041 ]
+>>
+endobj
+25 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.youtube.com/embed/cd549lZtPEU)
+>>
+endobj
+26 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 27 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 15.0000 92.2421 276.0960 104.4521 ]
+>>
+endobj
+27 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.youtube.com/watch?v=OPlGMplfEbc)
+>>
+endobj
+28 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 29 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 15.0000 77.5901 436.4520 89.8001 ]
+>>
+endobj
+29 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.genbeta.com/web/mejores-webs-para-aprender-a-programar-gratis)
+>>
+endobj
+30 0 obj
+<< /Type /Annot
+/Subtype /Link
+/A 31 0 R
+/Border [0 0 0]
+/H /I
+/Rect [ 15.0000 62.9381 284.1000 75.1481 ]
+>>
+endobj
+31 0 obj
+<< /Type /Action
+/S /URI
+/URI (https://www.youtube.com/watch?v=5DXdL-ZESSw)
+>>
+endobj
+32 0 obj
+<< /Type /Page
+/Parent 3 0 R
+/Contents 33 0 R
+>>
+endobj
+33 0 obj
+<<
+/Length 612 >>
+stream
+
+0.000 0.000 0.000 rg
+0.000 0.000 0.000 RG
+0.24 w 0 J [  ] 0 d
+0.953 0.576 0.224 rg
+BT 15.000 814.208 Td /F2 12.0 Tf  [(DICCIONARIO)] TJ ET
+0.000 0.000 0.000 rg
+BT 15.000 783.596 Td /F1 12.0 Tf  [(lenguaje-de-programaciÛn | javascript | python | php | Java | html | CSS | R | SQL)] TJ ET
+0.953 0.576 0.224 rg
+BT 15.000 752.984 Td /F2 12.0 Tf  [(PUNTUACI”N)] TJ ET
+0.000 0.000 0.000 rg
+BT 15.000 722.372 Td /F1 12.0 Tf  [(ProgramaciÛn: 2)] TJ ET
+BT 15.000 707.720 Td /F1 12.0 Tf  [(Redes: 0)] TJ ET
+BT 15.000 693.068 Td /F1 12.0 Tf  [(Seguridad: 0)] TJ ET
+BT 15.000 678.416 Td /F1 12.0 Tf  [(Algoritmia: 2)] TJ ET
+endstream
+endobj
+xref
+0 34
+0000000000 65535 f 
+0000000008 00000 n 
+0000000073 00000 n 
+0000000119 00000 n 
+0000000350 00000 n 
+0000000387 00000 n 
+0000000602 00000 n 
+0000000740 00000 n 
+0000006993 00000 n 
+0000007100 00000 n 
+0000007212 00000 n 
+0000007328 00000 n 
+0000007448 00000 n 
+0000008564 00000 n 
+0000008888 00000 n 
+0000009016 00000 n 
+0000009201 00000 n 
+0000009329 00000 n 
+0000009411 00000 n 
+0000009539 00000 n 
+0000009619 00000 n 
+0000009747 00000 n 
+0000009838 00000 n 
+0000009965 00000 n 
+0000010058 00000 n 
+0000010185 00000 n 
+0000010278 00000 n 
+0000010404 00000 n 
+0000010499 00000 n 
+0000010624 00000 n 
+0000010749 00000 n 
+0000010874 00000 n 
+0000010969 00000 n 
+0000011034 00000 n 
+trailer
+<<
+/Size 34
+/Root 1 0 R
+/Info 5 0 R
+>>
+startxref
+11698
+%%EOF
