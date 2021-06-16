@@ -1,0 +1,43 @@
+EN ESTA TAREA SE DESARROLLAN DIFERENTES SIMULADORES DE REDES USANDO EL EMULADOR DE CISCO LLAMADO "PACKET TRACER".
+
+**PRIMERA SIMULACION: SERVIDOR WEB Y DNS**
+En esta parte de la tarea se crean dos servidores, uno almacenando nuestra imaginaria pagina web y un servidor DNS.
+Para poder acceder a esa web necesitamos una direccion IP del servidor donde esta almacenada, pero como es complicado recordar series numericas largas, el servidor DNS asigna a cada dominio de web, una direccion IP-
+De forma que en vez de buscar nuestra web con un numero, podamos buscarla por su nombre en formato NO numerico.
+Ejemplo:
+
+Dirección IP: 93.184.216.34
+
+Dominio:www.ejemplo.es
+
+En este ejericio se crean computadores para acceder a la web a traves de nuestro servidor DNS, creado junto al servidor WEB.
+
+
+
+**SEGUNDA SIMULACION: RED CON SERVIDOR DHCP**
+Es un protocolo de red tambien llamado protocolo de configuracion dinamica de Host.
+Es de tipo cliente/servidor mediante el cual un servidor DHCP asigna dinámicamente una dirección IP y otros parámetros de configuración de red a cada dispositivo en una red para que puedan comunicarse con otras redes IP
+
+
+
+
+**TERCERA SIMULACION: RED VLAN BASICA**
+Red Vlan o Virtual Lan, es un método para crear redes lógicas independientes dentro de una misma red física.
+Se usan dos switches cisco y ocho computadoras para mostrar la configuración básica.
+En este caro, sería posible utilizar la misma red y tener dos computadoras con la misma dirección IP, por ejemplo: si la IP 172.16.1.8 pertenece a dos VLAN separadas, no tendríamos conflictos de IP.
+aunque no es recomendable pues se dificulta la administración de las redes.
+
+
+
+**CUARTA SIMULACION**
+En este caso se crean 3 redes VLan en un mismo switch, todas ellas conectadas mediante un router. Es igual que el ejercicio anterior, pero añadiendo la posibildad de conexion entre VLANs.
+
+
+
+**QUINTA CONEXION**
+Con el direccionamiento estático, mantiene la tabla de direccionamiento manualmente utilizando el mandato route.
+El direccionamiento estático es práctico para una red individual que se comunica con una o con otras dos redes.
+Sin embargo, cuando la red empieza a comunicarse con más redes, aumenta el número de pasarelas y también aumenta la cantidad de tiempo y esfuerzo necesarios para mantener la tabla de direccionamiento manualmente.
+
+En este ejercicio se unen 3 redes con 3 routers mediante enrutamiento estatico.
+
