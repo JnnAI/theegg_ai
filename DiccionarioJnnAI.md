@@ -182,3 +182,81 @@ El diseño XML se centra en la simplicidad, la generalidad y la facilidad de uso
 También se define como un conjunto de normas que permite la comunicación entre ordenadores, estableciendo la forma de identificación de estos en la red, la forma de transmisión de los datos y la forma en que la información debe procesarse.
 
 Los sistemas de comunicación utilizan formatos bien definidos (protocolo) para intercambiar mensajes. Cada mensaje tiene un significado exacto destinado a obtener una respuesta de un rango de posibles respuestas predeterminadas para esa situación en particular. Normalmente, el comportamiento especificado es independiente de cómo se va a implementar. Los protocolos de comunicación tienen que estar acordados por las partes involucradas. Para llegar a dicho acuerdo, un protocolo puede ser desarrollado dentro de estándar técnico. Un lenguaje de programación describe el mismo para los cálculos, por lo que existe una estrecha analogía entre los protocolos y los lenguajes de programación: «los protocolos son a las comunicaciones como los lenguajes de programación son a los cómputos». Un protocolo de comunicación, también llamado en este caso protocolo de red, define la forma en la que los distintos mensajes o tramas de bit circulan en una red de computadoras.
+
+**Bases de datos:** Una base de datos es un conjunto de datos pertenecientes a un mismo contexto y almacenados sistemáticamente para su posterior uso. En este sentido; una biblioteca puede considerarse una base de datos compuesta en su mayoría por documentos y textos impresos en papel e indexados para su consulta. Actualmente, y debido al desarrollo tecnológico de campos como la informática y la electrónica, la mayoría de las bases de datos están en formato digital, siendo este un componente electrónico, por tanto se ha desarrollado y se ofrece un amplio rango de soluciones al problema del almacenamiento de datos.
+Tal y como hemos estudiado, podemos diferenciar bases de datos SQL, NoSQL, Autogestionadas y Otros tipos.
+
+**SQL:** Almacena y proporciona acceso a puntos de datos relacionados entre sí. Cada fila es un registro con un ID único (clave) y cada columna contiene atributos de los datos. Ambos están relacionados entre sí. Por eso estas bases de datos tambien se llaman: Relacionales. La información suele estar centralizada en un único servidor normalmente.
+
+**NoSQL:** Estas bases de datos son mas flexibles que las anteriores y mas eficientes en acceso a cantidades grandes de datos, aunque no tienen los datos relacionados entre si, tal y como hacen las SQL. La información está compartida en varios servidores distribuidos.
+
+**Autogestionadas:** Mantienen la potencia y ventajas del modelo relacional pero utilizando Inteligencia Artificial.
+
+**Otras bases de datos:** influxdb, por ejemplo. Utilizan servidores de base de datos para utilizarlos en series temporales.
+
+**Dirección IP:** Una dirección IP (protocolo de internet, por sus siglas en inglés) es una representación numérica que identifica una interfaz concreta de manera única en la red. describe un conjunto de estándares y requisitos para crear y transmitir paquetes de datos (o datagramas) entre las redes. El protocolo de internet (IP) es parte de la capa de internet del conjunto de protocolos de internet. En el modelo OSI, la IP se consideraría parte de la capa de red. Tradicionalmente, IP se usa junto con un protocolo de nivel superior, de los cuales el más frecuente es TCP. El estándar IP está regido por la especificación RFC 791.
+Hasta ahora se han estado utilizando las direcciones IPv4. Dado la saturación creciente en el uso de estas, se esta comenzando a utilizar las denominadas IPv6.
+Las direcciones IPv4 tienen una longitud de 32 bits, que permite un máximo de 4 294 967 296 (232) direcciones únicas. Las direcciones IPv6 son de 128 bits, lo que permite 3,4 x 1038 (2128) direcciones únicas.
+
+**IP Pública:** Se trata de las matrículas que se le asigna a cada usuario cuando navega por Internet, por lo que si una página o servicio la bloquea puede hacer que dejes de poder acceder a ella. De ahí que algunos usuarios puedan querer cambiarla, ya sea por eso o por tener una navegación más anónima.
+En otras palabras, una dirección IP pública es aquella que se le asigna a cualquier dispositivo que se conecte de forma directa a Internet, por ejemplo, el router de casa o los servidores donde se alojan las páginas web. La IP pública es visible desde Internet.
+
+La IP pública es una dirección única y nunca se puede repetir. La asignan los proveedores de Internet (ISP) y se la conoce también como dirección IP dinámica, puesto que cambia cada vez que reiniciamos el router o cada cierto período de tiempo. Esto quiere decir que también existe una dirección IP pública fija o estática, pero si se necesita por algún motivo, es necesario contactar con el ISP para solicitar que nos la configuren manualmente.
+
+**IP privada:** La dirección IP privada es una dirección fija que se asigna a cada dispositivo conectado a una red privada o doméstica, es decir, la dirección IP que el router asigna a cada ordenador, smartphones, smart TV, tablet, videoconsola o cualquier otro dispositivo conectado a él. Así, cada dispositivo conectado a un router tiene su propia dirección IP privada, mientras comparten la misma IP pública.
+Las IP’s privadas no son accesibles desde Internet y no cambian, a no ser que las asignemos nosotros manualmente.
+
+**TCP/IP:** La definición de TCP/IP es la identificación del grupo de protocolos de red que hacen posible la transferencia de datos en redes, entre equipos informáticos e internet. Las siglas TCP/IP hacen referencia a este grupo de protocolos:
+TCP es el Protocolo de Control de Transmisión que permite establecer una conexión y el intercambio de datos entre dos anfitriones. Este protocolo proporciona un transporte fiable de datos.
+IP o protocolo de internet, utiliza direcciones series de cuatro octetos con formato de punto decimal (como por ejemplo 75.4.160.25). Este protocolo lleva los datos a otras máquinas de la red.
+
+**Red LAN:** LAN (Local Area Network)
+Las redes de área local (LAN por las siglas de Local Area Network) son las de uso más frecuente. Son conjuntos de máquinas interconectadas, ubicadas en extensiones relativamente pequeñas. Desde nuestros hogares hasta grandes edificios de oficinas, pasando por entidades gubernamentales e instituciones académicas.
+Este tipo de redes son las más comunes. En todos los lugares de trabajo del mundo, con más de una computadora interconectada, existe seguramente una LAN activa.
+Las LAN permiten la interacción entre múltiples equipos para compartir datos y recursos. Muchas computadoras accediendo a la misma impresora, al mismo servidor, a la misma conexión a Internet. Todas ellas compartiendo datos a gran velocidad.
+
+**Red MAN:** MAN (Metropolitan Area Network)
+Una red de área metropolitana (MAN por las siglas en inglés de Metropolitan Area Network) consiste en computadoras compartiendo recursos entre sí en áreas de cobertura de mayor tamaño que una LAN, pero menor que una WAN. Funcionan de forma muy parecida a una red de área local pero cumplen estándares tecnológicos diferentes. Estas mejoras son necesarias para subsanar los problemas de latencia (retardo en la entrega de información) y pérdida de calidad de la señal en interconexiones que abarcan largas distancias.
+Generalmente usan un bus doble, ida y vuelta, con fibra óptica, para interconectar las diferentes LAN a la red. También se consiguen redes MAN usando pares de cobre o microondas. Por la mayor estabilidad y menor latencia que ofrecen, son ideales para ofrecer servicios multimedia y videovigilancia en grandes ciudades, entre otras ventajas.
+
+**Red WAN:** WAN (Wide Area Network)
+Las redes de área amplia (WAN por las siglas de Wide Area Network), son redes informáticas LAN y MAN interconectadas entre sí. Sus nodos están separados por distancias que pueden abarcar continentes enteros. Los integrantes de esas redes no necesariamente están conectados físicamente. Hacen uso de servicios de microondas y satelitales para integrar sus diferentes nodos.
+Son muy usadas por grandes empresas que abarcan mucho territorio. Generalmente necesitan usar redes privadas virtuales (VPN) para conseguir la privacidad necesaria en el intercambio de datos. Otro uso muy frecuente es para ofrecer conexión web a clientes de grandes proveedores de Internet (ISP – Internet Service Provider).
+Debido a la amplitud de su cobertura necesitan atravesar redes públicas, como las telefónicas, así como rentar servicios de transporte a otras redes privadas y usar conexiones satelitales para poder llevar la información de un lado a otro.
+
+**Máscara de subred:** Una máscara de subred es un número que define un rango de Direcciones IP disponible dentro de un red. Una sola máscara de subred limita el número de IP válidas para una red específica. Varias máscaras de subred pueden organizar una sola red en redes más pequeñas (llamadas subredes o subredes). Los sistemas dentro de la misma subred pueden comunicarse directamente entre sí, mientras que los sistemas en subredes diferentes deben comunicarse a través de un enrutador.
+Una máscara de subred oculta (o enmascara) la parte de red de la dirección IP de un sistema y deja solo anfitrión parte como el identificador de la máquina. Utiliza el mismo formato que un IPv4 dirección: cuatro secciones de uno a tres números, separadas por puntos. Cada sección de la máscara de subred puede contener un número de 0 a 255, al igual que una dirección IP. Por ejemplo, una máscara de subred típica para una dirección IP de clase C es: 255.255.255.0
+
+**HUB:** El hub es el dispositivo más sencillo de todos. Un Hub tiene la función de interconectar los ordenadores de una red local. Comparado con el switch y el router, es mucho más simple, ya que sólo se dedica a recibir datos procedentes de un ordenador para transmitirlo a los demás. Digamos que se trata de un punto central de conexión en una red. Normalmente son usados para conectar segmentos de una red LAN a través de sus diferentes puertos. "Cuando un paquete es recibido en un puerto, es copiado a todos los demás puertos, para que cualquier nodo conectado a la red pueda verlo", según indican en redes.org.
+
+**SWITCH:** El switch es un aparato muy semejante al hub, pero envía los datos de manera diferente. A través de un switch aquella información proveniente del ordenador de origen es enviada al ordenador de destino.
+Básicamente, los switchs crean una especie de canal de comunicación exclusiva entre el origen y el destino. Así la red no queda "limitada" a un solo equipo en el envío de información, a diferencia del hub.
+El funcionamiento del dispositivo aumenta la respuesta de la red ya que la comunicación está siempre disponible, excepto cuando dos o más ordenadores intentan enviar datos simultáneamente a la misma máquina. En otras palabras, el switch distribuye los datos a cada máquina de destino, mientras que el hub envía todos los datos a todas las máquinas que responden.
+
+**ROUTER:** El router es el dispositivo que se encarga de reenviar los paquetes entre distintas redes. Es más "inteligente" que el switch, pues, además de cumplir con la misma función, tiene además la capacidad de escoger la mejor ruta para que un determinado paquete de datos llegue a su destino. Los routers son capaces de interconectar varias redes y generalmente trabajan en conjunto con hubs y switchs. Suelen poseer recursos extras, como firewall, por ejemplo.
+El equipo conecta al menos dos redes, normalmente una red LAN y una conexión WAN hacia tu ISP. Usa cabeceras y tablas de enrutamiento para determinar el mejor camino para que el paquete llegue a su destino, usando protocolos como el ICMP para comunicarse con otros routers y así descubrir el camino más eficiente entre dos nodos.
+
+**Pentesting:** El Pentesting o también llamado test de penetración está diseñado para determinar el alcance de los fallos de seguridad de un sistema. Asimismo, es una de las practicas más demandadas actualmente ya que gracias a estos test, una empresa puede llegar a saber a qué peligros está expuesta y cuál es el nivel de eficiencia de sus defensas. Por eso, el “Pentester” o Auditor de ciberseguridad es una de las profesiones más demandas dentro del mundo de la Seguridad Informática, lo que los convierte en uno de los profesionales más solicitados del momento, al igual que las escuelas donde se imparte esta especialización.
+
+**Hacker:** persona con sólidos conocimientos informáticos capaz de introducirse sin autorización en sistemas ajenos para manipularlos, obtener información, etc., o simplemente por diversión.
+
+**Cracker:** además de ser capaz de entrar en sistemas ajenos, lo hace con fines delictivos.
+
+**XSS:** Una secuencia de comandos en sitios cruzados o Cross-site scripting es un tipo de vulnerabilidad informática o agujero de seguridad típico de las aplicaciones Web, que puede permitir a una tercera persona inyectar en páginas web visitadas por el usuario código JavaScript o en otro lenguaje similar.​
+
+**Inyección SQL:** Inyección SQL es un método de infiltración de código intruso que se vale de una vulnerabilidad informática presente en una aplicación en el nivel de validación de las entradas para realizar operaciones sobre una base de datos.
+
+**DDoS:** ataque de denegación de servicio, llamado también ataque DoS, es un ataque a un sistema de computadoras o red que causa que un servicio o recurso sea inaccesible a los usuarios legítimos. Normalmente provoca la pérdida de la conectividad con la red por el consumo del ancho de banda de la red de la víctima o sobrecarga de los recursos computacionales del sistema atacado.
+
+**Ingeniería social:** La ingeniería social es la práctica de obtener información confidencial a través de la manipulación de usuarios legítimos. Es una técnica que pueden usar ciertas personas para obtener información, acceso o permisos en sistemas de información​ que les permitan realizar daños a la persona u organismo comprometidos.
+
+**Man in the middle:** En criptografía, un ataque de intermediario​ es un ataque en el que se adquiere la capacidad de leer, insertar y modificar a voluntad. El atacante debe ser capaz de observar e interceptar mensajes entre las dos víctimas y procurar que ninguna de las víctimas conozca que el enlace entre ellos ha sido violado.
+
+**Phishing:** Phishing es un término informático que distingue a un conjunto de técnicas que persiguen el engaño a una víctima ganándose su confianza haciéndose pasar por una persona, empresa o servicio de confianza, para manipularla y hacer que realice acciones que no debería realizar.
+
+
+
+
+
+
+
