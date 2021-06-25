@@ -255,8 +255,43 @@ El equipo conecta al menos dos redes, normalmente una red LAN y una conexión WA
 **Phishing:** Phishing es un término informático que distingue a un conjunto de técnicas que persiguen el engaño a una víctima ganándose su confianza haciéndose pasar por una persona, empresa o servicio de confianza, para manipularla y hacer que realice acciones que no debería realizar.
 
 
+**REGEX (Expresiones Regulares):** una expresión regular, o expresión racional, también son conocidas como regex o regexp, por su contracción de las palabras inglesas REGular EXpression, es una secuencia de caracteres que conforma un patrón de búsqueda. Se utilizan principalmente para la búsqueda de patrones de cadenas de caracteres u operaciones de sustituciones.
+Las expresiones regulares son patrones utilizados para encontrar una determinada combinación de caracteres dentro de una cadena de texto. Las expresiones regulares proporcionan una manera muy flexible de buscar o reconocer cadenas de texto. Aunque hay un dicho que dice que el programador que quiere resolver un problema con Regex, tiene 2 problemas... Por algo será
+
+**Procesamiento del lenguaje natural:** es un campo de las ciencias de la computación, de la inteligencia artificial y de la lingüística que estudia las interacciones entre las computadoras y el lenguaje humano. Se ocupa de la formulación e investigación de mecanismos eficaces computacionalmente para la comunicación entre personas y máquinas por medio del lenguaje natural, es decir, de las lenguas del mundo. No trata de la comunicación por medio de lenguas naturales de una forma abstracta, sino de diseñar mecanismos para comunicarse que sean eficaces computacionalmente —que se puedan realizar por medio de programas que ejecuten o simulen la comunicación—. Los modelos aplicados se enfocan no solo a la comprensión del lenguaje de por sí, sino a aspectos generales cognitivos humanos y a la organización de la memoria. El lenguaje natural sirve solo de medio para estudiar estos fenómenos.
+
+**Crawlers (Arañas Web):** El termino de crawler viene de la forma en la cual se desplaza una araña. Es por eso que a un rastreador web también se le llama araña. Básicamente es un bot de internet que navega en forma sitemática en la Word Wide Web, generalmente con el proposito de indexar la web.
+Se utiliza para indexar la información en la página usando bots también conocido como rastreadores.
+Navegando por cada rincón y grieta de la World Wide Web, la araña localiza y recupera la información que se encuentra en las diferentes capas. Los rastreadores web o bots navegan a través de un montón de datos e información y obtienen lo que sea relevante para el proyecto.
+Ejemplo de rastreo web:
+Lo que hace Google, Yahoo y Bing es un ejemplo sencillo de Web Crawler.
+
+**Scrapers:** El web scraping es básicamente extraer datos de sitios web de manera automatizada.
+Está automatizado por que utiliza bots para obtener la información del sitio web.
+Es un análisis programático de una página web para descargar información de ella.
+El scraping de datos implica localizar los datos y luego extraerlos. No copia y pega, sino que, obtiene directamente los datos de manera precisa. No se limita a la web, los datos se pueden obtener prácticamente desde cualquier lugar donde se almacenan. Puede ser Internet u otra fuente de datos.
+Ejemplo de web scraping:
+El web scraping implicaría obtener la información de una página web específica, por ejemplo, obtener la información de precios de determinados productos de las páginas de Amazon.
+
+**AJAX:** Asynchronous JavaScript And XML (JavaScript asíncrono y XML), es una técnica de desarrollo web para crear aplicaciones web asíncronas. Estas aplicaciones se ejecutan en el cliente, es decir, en el navegador de los usuarios mientras se mantiene la comunicación asíncrona con el servidor en segundo plano. De esta forma es posible interactuar con el servidor sin necesidad de recargar la página web, mejorando la interactividad, velocidad y usabilidad en las aplicaciones.
+Ajax es una tecnología asíncrona, en el sentido de que los datos adicionales se solicitan al servidor y se cargan en segundo plano sin interferir con la visualización ni el comportamiento de la página, aunque existe la posibilidad de configurar las peticiones como síncronas de tal forma que la interactividad de la página se detiene hasta la espera de la respuesta por parte del servidor.
+
+**API:** Una API es un conjunto de definiciones y protocolos que se utiliza para desarrollar e integrar el software de las aplicaciones. API significa interfaz de programación de aplicaciones.
+Las API permiten que sus productos y servicios se comuniquen con otros, sin necesidad de saber cómo están implementados. Esto simplifica el desarrollo de las aplicaciones y permite ahorrar tiempo y dinero. Las API le otorgan flexibilidad; simplifican el diseño, la administración y el uso de las aplicaciones, y proporcionan oportunidades de innovación, lo cual es ideal al momento de diseñar herramientas y productos nuevos (o de gestionar los actuales).
+A veces, las API se consideran como contratos, con documentación que representa un acuerdo entre las partes: si una de las partes envía una solicitud remota con cierta estructura en particular, esa misma estructura determinará cómo responderá el software de la otra parte.
+
+**HTML5:** es la última versión de la tecnología HTML, cuyas siglas corresponden a “HyperText Markup Language”, que tiene el siguiente significado:
+HyperText, cuyo significado es hipertexto, que no es más que un texto que enlaza con otros contenidos, que pueden ser otro texto u otro archivo. Esto es la base del funcionamiento de la web tal y como la conocemos, que no es más que páginas y recursos interconectados.
+Markup, que significa marca o etiqueta, ya que todas las páginas web están construidas en base a etiquetas, desde las primeras versiones hasta las últimas etiquetas de HTML5. Un ejemplo de una etiqueta HTML es la que identifica a un párrafo, que se compone de la etiqueta, el contenido de la etiqueta y el cierre del párrafo: <p>HOLA</p>.
+Languaje, cuyo significado es lenguaje, porque HTML es un lenguaje, es decir, tiene sus normas, tiene su estructura y una serie de convenciones que nos sirven para definir tanto la estructura como el contenido de una web.
+HTML5 es un estándar que sirve como referencia del software que conecta con la elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado HTML) para la definición de contenido de una página web, como texto, imágenes, vídeos, juegos, entre otros…
 
 
+**CSS:** CSS son las siglas de “Cascading Style Sheets” (hojas de estilo en cascada). CSS es un lenguaje para la composición y estructuración de páginas web (HTML o XML). Este lenguaje contiene elementos de codificación y se compone de estas “Cascading Style Sheets” que también se llaman archivos CSS (. css). El diseño del CSS posibilita establecer una separación entre el contenido y la forma de presentación del documento (dada por las fuentes, los colores y las capas empleadas). Así se puede lograr que muchos documentos HTML compartan la apariencia, utilizando una única hoja de estilo para todos (que se especifica en un archivo .css). Gracias a esta particularidad, se evita tener que repetir el código en la estructura.
+Gracias a la separación del contenido y la forma de presentación, por otra parte, se puede apelar a distintos estilos de acuerdo al método de renderizado: si se trata de un documento exhibido en una pantalla, impreso, compartido en formato de audio, etc.
+Además de todo lo expuesto, podemos subrayar que gracias al CSS se pueden crear páginas web con un diseño que pueda resultar atractivo y agradable. Eso sí, para poder hacer uso de aquel se hace imprescindible tener conocimientos básicos del mismo así como de informática, del lenguaje HTML e incluso ciertas destrezas e ideas en cuanto al manejo de ficheros.
+
+**Javascript:** JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, cada vez que una página web hace algo más que sentarse allí y mostrar información estática para que la veas, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento de máquinas reproductoras de vídeo, etc., puedes apostar que probablemente JavaScript está involucrado. Es la tercera capa del pastel de las tecnologías web estándar, dos de las cuales (HTML y CSS) hemos cubierto con mucho más detalle en otras partes del Área de aprendizaje.
 
 
 
