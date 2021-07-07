@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap');
+
+
+:root{
+    --gold1:#F4BD76;
+    --gold2:#F6CD8F;
+    --gold3: #F7CE90;
+    --orange: #F48D76;
+    --gray1:#ffffff80;
+    --gray2:#f7d9d990;
+    --black1:#1A1B1F;
+    --black2: #30553b;
+    --black3: #353741;
+    --blue: #0db0f0;
+    --shadow: 0 8px 8px;
+    --color_shadow: #00000033;
+    
+
+
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Merriweather', serif;
+}
+
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    overflow: hidden;
+    padding: 100px 0;
+    height: auto;
+}
+
+.container--modifier{
+    width: 60%;
+}
+
+.hero{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #30353B 0%, #1A1B1F  100%);
+}
+
+.nav__hero{
+    color: #fff;
+    height: 70px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: inherit;
+    padding: 0;
+}
+
+.logo__name{
+    font-size: 24px;
+    color: var(blue);
+	text-shadow:
+		0 0 5px rgba(0,178,255,1),
+		0 0 10px rgba(0,178,255,1),
+		0 0 20px rgba(0,178,255,1),
+		0 0 40px rgba(38,104,127,1),
+		0 0 80px rgba(38,104,127,1),
+		0 0 90px rgba(38,104,127,1),
+		0 0 100px rgba(38,104,127,1),
+		0 0 140px rgba(38,104,127,1),
+		0 0 180px rgba(38,104,127,1);
+    margin-left: 30px;
+}
+
+.hero__main{
+    height: calc(100vh);
+    display:flex;
+    align-items: center;
+    padding: 0;
+}
+
+.mockup{
+    object-fit: cover;
+    height: calc(100vh);
+}
+
+.title{
+    font-size: 54px;
+    font-weight: 700;
+    color: var(--gold1);
+}
+
+.title__active{
+    color: #fff;
+    font-weight: 300;
+}
+
+.copy{
+    font-size: 24px;
+    
+    color: var(--gray1);
+    text-shadow: var(--shadow) var(--color_shadow);
+    margin: 20px 0;
+}
+
+.copy__active{
+    font-size: 26px;
+    color: var(--gold2)
+}
+
+.cta{
+    padding: 20px 25px;
+    margin-left: 5px;
+    display: inline-block;
+    background: linear-gradient(180deg, --gold1 0%, --orange 100%);
+    text-decoration: none;
+    color: var(--gold3);
+    font-weight: 700;
+    box-shadow: 0px 0px 5px 1px gold;
+    border-radius: 10px;
+}
+
+.card__title{
+    text-align: center;
+    color:rgb(197, 197, 197);
+    padding: 20px 50px;
+}
+
+.services{
+    background: linear-gradient(180deg, #1A1B1F 0%,  #303538 100%);
+
+}
+
+.card__list{
+    color:rgb(197, 197, 197);
+}
+
+.subtitle{
+
+    color:rgb(197, 197, 197);
+}
+
+.copy__section{
+    color:rgb(197, 197, 197);
+}
+
+.video{
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
