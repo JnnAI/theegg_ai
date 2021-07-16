@@ -1,0 +1,29 @@
+El resultado que devuelve el programa despues de ser ejecutado es el siguiente:
+
+SECUENCIAL, cantidad de iteracciones realizadas:   -  11
+SECUENCIAL, tiempo de busqueda:   -  2.1457672119140625e-06
+
+
+BINARIA, cantidad de iteracciones realizadas:   -  3
+BINARIA, tiempo de busqueda:  -  1.3113021850585938e-05
+
+Por una parte, la diferencia entre iteracciones de cada uno esta clara. La busqueda binaria es mucho mas efectiva, ya que solo utiliza 3 iteracciones respecto a las 11 que necesita el otro elemento.
+El segundo punto a comentar es que aunque la busqueda binaria tarde un poco mas, es porque la busqueda secuencial ha tenido "el trabajo facil" ya que el elemento se encontrada cerca del comienzo en la lista.
+
+
+
+Si aumentamos el tamaño de la lista añadiendo nuevos numeros, el resultado se ve que varia a favor de la busqueda binaria (se han añadido solamente 5 numeros mas:
+
+SECUENCIAL, cantidad de iteracciones realizadas:   -  20
+SECUENCIAL, tiempo de busqueda:   -  3.0994415283203125e-06
+
+
+BINARIA, cantidad de iteracciones realizadas:   -  3
+BINARIA, tiempo de busqueda:  -  1.3113021850585938e-05
+
+Se puede observar que la busqueda binaria sigue resolviendo el problema en solamente 3 iteracciones, y que la secuencial ha necesitado de 20 movimientos, ademas de aumentar ligeramente el tiempo empleado.
+Esto se podrá apreciar mejor en tamaños grandes de listas, donde el algoritmo de busqueda binaria sea capaz de resolver el problema en tiempo y cantidad de iteracciones mucho mas reducidas y el secuencial cada vez necesite mas tiempo de procesamiento.
+
+
+En resumen: Suponiendo que tengamos una lista ORDENADA (Ya que sin ser asi el algoritmo de busqueda binaria no sirve), es mucho mas eficiente la busqueda binaria que la secuencial.
+
