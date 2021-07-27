@@ -16,13 +16,7 @@ def anadir_X (mensaje):
     size=5
     #mensajesinespacios=mensaje.replace(' ','')     #esta linea se omite porque al principio elimine todos los espacios, pero luego al desencriptarlo, no se pueden volver a colocar
     #si se quisieran omitir los espacios simplemente hay que activar esa linea y reasignar los nombres dentro de esta funcion tal que asi:
-            '''def anadir_X (mensaje)
-                  size=5
-                   mensajesinespacios=mensaje.replace(' ','')
-                   resto=len(mensajesinespacios)%5
-                  nuevomensajesinespacios=mensajesinespacios + (size-resto)*'X'
-                  return (nuevomensajesinespacios)
-            '''
+           
     resto=len(mensaje)%5
     cantidad_x=size-resto
     nuevomensaje=mensaje + (cantidad_x)*'X'
