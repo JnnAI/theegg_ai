@@ -14,9 +14,7 @@ def introduce_mensaje():
 #En este programa, la frase de entrada se separa en grupos de 5 letras. Si el ultimo grupo no tiene 5 letras, esta funcion lo completa con una X por cada hueco faltante.
 def anadir_X (mensaje):
     size=5
-    #mensajesinespacios=mensaje.replace(' ','')     #esta linea se omite porque al principio elimine todos los espacios, pero luego al desencriptarlo, no se pueden volver a colocar
-    #si se quisieran omitir los espacios simplemente hay que activar esa linea y reasignar los nombres dentro de esta funcion tal que asi:
-           
+    #mensajesinespacios=mensaje.replace(' ','')     #esta linea se omite porque al principio elimine todos los espacios, pero luego al desencriptarlo, no se pueden volver a colocar           
     resto=len(mensaje)%5
     cantidad_x=size-resto
     nuevomensaje=mensaje + (cantidad_x)*'X'
