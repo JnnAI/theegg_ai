@@ -1,0 +1,148 @@
+import numpy
+import random
+import string
+
+
+def introduce_mensaje():
+    cadena =input("Introduce un mensaje para cifrar:")
+    mensaje = cadena.upper()
+    return mensaje
+#aqui se podria implementar condiciones de forma que no se puedan meter valores que no se deban
+
+
+
+#esta funcion añade X al final de la cadena de texto insertada, de forma que al separar las letras en grupos de 5, en el caso de que en el ultimo grupo de letras no rellenen 5 letras, esta funcion las inserte hasta completar 5.
+def anadir_X (mensaje):
+    size=5
+    resto=len(mensaje)%5
+    cantidad_x=size-resto
+    nuevomensaje=mensaje + (cantidad_x)*'X'
+    return(nuevomensaje, cantidad_x)
+
+#esta funcion hace lo mismo pero al reves. Elimina las X añadidas con la funcion anterior. se inserta el mensaje y el numero de X que hay que quitar(este ultimo valor lo devuelve la funcion de Encriptar, de forma que se sepa cuantas X se deben de quitar del mensaje encriptado).
+def retirar_x(mensaje, cantidad_x):
+    nuevomensaje=mensaje[:-cantidad_x]
+    return nuevomensaje
+
+
+
+#esta funcion divide el mensaje insertado en el programa en grupos de 5 letras, tal y como lo pide el Solitario.
+def divide_mensaje(nuevomensajesinespacios, size):
+    array = []
+    for index in range(0, len(nuevomensajesinespacios), size):
+        mensajeen5 = nuevomensajesinespacios[index : index + size]
+        array.append(mensajeen5)
+    return array
+
+
+
+#con esta funcion genero una cadena de letras de la A a la Z, en mayusculas, totalmente aleatoria, de forma que cada vez que se ejecute, cree una nueva cadena aleatoria.
+#esta cadena es la que se comparte al encriptar y desencriptar el mensaje. Sin ella no se puede desencriptar el mensaje.
+#cada vez que se ejecuta el programa, la clave es diferente.
+def letras_aleatorias(y):
+    return ''.join(random.choice(string.ascii_letters) for x in range(y))
+
+
+#mediante esta funcion se convierten las letras de la cadena en numeros. Para ello utiliza el codigo ascii mediante el comando ord
+def convertir_en_numeros(cad):
+    separador=''
+    cadena=separador.join(cad)
+    codificado=[]
+    for letra in cadena:
+        codificado.append(ord(letra)%32)
+
+    return(codificado)
+
+
+#esta funcion es la que suma los valores de los dos strings numericos que se consiguen al preparar la encriptacion, teniendo en cuenta que el modulo de la suma no debe sobrepasar 26.
+#suma las posiciones 1, 2, 3... de la primera string con la segunda, y el resultado lo transcribe a otra string que es la que almacena la suma de las anteriores.
+#de esta forma se consigue un string con el resultado de la suma de ambas, que posteriormente se va a convertir en el mensaje encriptado
+def suma_strings(string1, string2):
+    string = []
+    for i in range (len(string1)):
+        suma=int(string1[i])+int(string2[i])
+        if suma > 26:
+            resultado=suma-26
+        else:
+            resultado=suma
+        string.append(resultado)
+    return string
+
+
+#esta funcion hace lo contrario a la anterior. Resta el modulo a la string y la reconvierte a los numeros iniciales.
+def resta_strings(string1, string2):
+
+    string = []
+    for i in range (len(string1)):
+        resta=int(string1[i])-int(string2[i])
+        if resta < 0:
+            resultado=resta+26
+        else:
+            resultado=resta
+        string.append(resultado)
+    return string
+
+
+#de la misma manera que usando ascii se pueden convertir letras a numeros, esta funcion hace lo contrario. Transforma los numeros a letras mediante el comando chr.
+def convertir_en_letras(numerica):
+    string = []
+    for i in numerica:
+      string.append(chr(ord('`') + i)) #para recobrar un caracter de su ordinal ASCII, se utiliza chr, por lo que en esta linea el contador va cambiando letra a letra e introduciendolo todo en un string nuevo que es devuelto mediante el return
+    
+    return string
+
+
+
+#FUNCION DE ENCRIPTACION. funcion que reune todas las funciones anteriores para poder encriptar el mensaje siguiendo los pasos del solitario.
+
+def encriptar_mensaje(mensaje):
+
+ 
+    mensaje_unido, cantidad_x=anadir_X(mensaje)                     #recoge el mensaje y le añade X al final hasta que la cantidad de letras de la frase sea multiplo de 5
+    mensaje_dividido=divide_mensaje(mensaje_unido, 5)               #divide el mensaje en grupos de 5 letras tal y como pide el Solitario. Se puede modificar la cantidad.
+    KEY = letras_aleatorias(len(mensaje_unido)).upper()             #genera una ristra de letras aleatorias en mayuscula que va a funcionar como CLAVE.
+    KEY_en_5 = divide_mensaje(KEY, 5)                               #separa esa misma clave en grupos de 5 letras también.
+    cadena_numerica=convertir_en_numeros(mensaje_dividido)          #convierte la cadena principal (que ya esta separada en grupos de 5 letras) a numeros
+    KEY_numerica=convertir_en_numeros(KEY_en_5)                     #convierte la CLAVE de la misma forma en grupos de 5.
+
+#HASTA AHORA YA TENEMOS LAS 2 CADENAS PREPARADAS PARA COMENZAR A ENCRIPTAR EL MENSAJE. 
+
+    cadena_sumada=suma_strings(cadena_numerica, KEY_numerica)       #suma las strings del mensaje y de la clave y genera una nueva string con el valor de la suma.
+    cadena_cifrada=convertir_en_letras(cadena_sumada)               #convierte el string numerico a letras de nuevo, de forma que ya tenemos el mensaje encriptado.
+    cadena_cifrada_2="".join(cadena_cifrada)                        #convierte de lista a cadena de texto el mensaje encriptado
+    cifrada=cadena_cifrada_2.upper()                                #convierte en mayusculas todas las letras
+    cifrada=divide_mensaje(cifrada, 5)                              #separa de 5 en 5 el mensaje
+
+    return cifrada, KEY, cantidad_x                                 #devuelve el mensaje cifrado, la clave para desencriptarlo y la cantidad de x que hay que quitar del final del mensaje.
+#probablemente no sea la mejor manera de pasar la clave, pero se podría pensar otra ruta de obtenerla para el que quiera desencriptar el mensaje. La he devuelto a traves de la funcion para que sea mas rapido ejecutar el programa y no haya que meter nada a mano.
+#el tema de quitar las X sobrantes del mensaje, tampoco es que sea la mas limpia de hacerlo, pero no se me ocurrio otra forma.
+
+
+#en las 4 siguientes lineas se observa como se pide un input de mensaje para encriptar y se imprime en pantalla cual es el mensaje que se va a encriptar.
+mensaje = introduce_mensaje()
+cifrar, KEY, cantidad_x=encriptar_mensaje(mensaje)
+cifrado=" ".join(cifrar)
+print('El mensaje cifrado es el siguiente:', cifrado)
+
+
+#esta es la funcion que desencripta el mensaje siguiente el procedimieno de encriptacion a la inversa. Recoge el mensaje que se va a desencriptar, la clave para desencriptarlo y la cantidad de X que se quitan del final del mensaje.
+def desencriptar_mensaje(mensaje, KEY, cantidad_x):
+    
+    mensaje_numeros = convertir_en_numeros(mensaje)                     #convierte el mensaje encriptado de nuevo en numeros
+    KEY_numeros = convertir_en_numeros(KEY)                             #convierte la clave tambien a numeros
+
+    cadena_restada=resta_strings(mensaje_numeros, KEY_numeros)          #resta una cadena a la otra, teniendo en cuenta el modulo 26. Devuelve el resultado en una string.
+    cadena_letras=convertir_en_letras(cadena_restada)                   #convierte esa cadena numerica nueva en letras. Genera unas comillas como separadores de las palabras
+    cadena_letras_2="".join(cadena_letras)                              #une todos los elementos en una cadena de texto
+    desencriptado=divide_mensaje(cadena_letras_2, 5)                   
+    desencriptado_2="".join(desencriptado)                             
+    result=desencriptado_2.replace("`", " ")                            #reemplaza las comillas que se generan en la conversion ascii de numeros a letras. (no he encontrado otro signo que funcione a la hora de convertirlas)
+    result_2=retirar_x(result, cantidad_x)                              #retira todas las x sobrantes del mensaje
+
+
+    return result_2
+
+
+
+desencriptado=desencriptar_mensaje(cifrar, KEY, cantidad_x)             #llama a la funcion de desencriptar recogiendo los 3 valores necesarios para que funcione.
+print('El mensaje descifrado es el siguiente:',desencriptado)           #imprime el resultado del mensaje desencriptado
