@@ -1,5 +1,14 @@
-ESTOS SON LOS TIEMPOS CONSEGUIDOS CON EL PROGRAMA:
+Hola Egger!!
+En esta tarea se presentan los resultados de los tiempos que genera el programa con los codigos lineal y constante.
+Se han hecho 2 funciones simples que hacen el calculo tal y como se explica en la tarea. Sin input.
 
+Cuando ejecutes el código, seguramente a ti te saldran tiempos diferentes,
+pero esto probablemente suceda por el entorno con el que trabajes o el procesamiento que te requiera el pc en el momento que lo estes usando
+Si tienes cualquier cuestión, no dudes en preguntarme!!
+
+#------------------------------------------------------------------------------
+
+ESTOS SON LOS TIEMPOS CONSEGUIDOS CON EL PROGRAMA:
 
 500000500000  -  0.07266688346862793
 500000500000  -  4.0531158447265625e-06
